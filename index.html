@@ -13,27 +13,46 @@
 
 <body>
   <hr>
-  <center>Developers all over the world have always tried to bring something better for the humanity .
-  Fighting is tough,You can run out of arguments.Arguing to prove yourself right will now be a thing of the past. For now has come the ulimate decider of truth . The dice fight . Two players can now just throw a dice in classrooms , at chai tapri or the barber's shop to prove themselves the right one . Could you never prove Earth is flat ? Here is your chance . Go Boy</center>
+  <center> <h2> Dice Decides </h2></center>
+  <center><h3>Developers all over the world have always tried to bring something better for humanity .
+  Fighting is tough , You can run out of arguments.Arguing to prove yourself right will now be a thing of the past. For now has come the ulimate decider of truth . The dice fight . Two players can now just throw a dice in classrooms , at chai tapri or the barber's shop to prove themselves the right one . Could you never prove Earth is flat ? Here is your chance . Go Boy</h3></center>
   <hr>
   <div class="left">
    <center class="mid"> 
-
      <button id="button1", onclick="Clicked('button1')"> <b> Player 1 </b> </button> 
        
    </center> 
+    <center class="duck">
+     <form id="myForm1" onsubmit="handleSubmit(event,'myForm1')">
+        <label for="name1"> Debater 1 is </label>
+        <input type="text" id="name1" name="name1"> 
+        <input type="submit" value="Submit">
+      </form>
+    </center>
   </div>
+  
   <div class="v1"> </div>
+  
   <div class="right">
     <center class="mid"> 
      
        <button id="button2", onclick="Clicked('button2')"> <b> Player 2</b> </button> 
    </center>
-    
+        <center class="duck">
+     <form id="myForm2" onsubmit="handleSubmit(event,'myForm2')">
+        <label for="name2"> Debater 1 is </label>
+        <input type="text" id="name2" name="name2"> 
+        <input type="submit" value="Submit">
+      </form>
+    </center>
+  
   </div>
+  
   <div class = "down"> 
     <center> <h1>Thanks for playing</h1> 
+    <button onclick="putVal('button1','button2')"> Update Names </button>
     <button onclick="declareWinner('button1','button2')"> Show result </button>
+      
       </center>
   </div>
 </body>
