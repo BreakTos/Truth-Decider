@@ -13,7 +13,7 @@
 .v1 {
   border-left: 6px solid green;
   float:left;
-  height: 450px;
+  height: 400px;
   width:1%;
 }
 .mid{
@@ -21,6 +21,8 @@
   padding-left: 100px;
 }
 .down{
-  
-  padding-top: 500px;
+  padding-top: 450px;
+}
+.duck{
+  margin:100px;
 }
