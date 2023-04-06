@@ -1,0 +1,26 @@
+
+	hr {
+			border-color: blue;
+		}
+  .left{
+    width:49%;
+    float:left;
+  }
+  .right{
+    width:49%;
+    float:left;
+  }
+.v1 {
+  border-left: 6px solid green;
+  float:left;
+  height: 450px;
+  width:1%;
+}
+.mid{
+  padding-top: 200px;
+  padding-left: 100px;
+}
+.down{
+  
+  padding-top: 500px;
+}
