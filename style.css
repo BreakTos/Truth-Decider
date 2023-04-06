@@ -29,3 +29,13 @@
 .hidden{
 display:none;  
 }
+.gbutton{
+  font-size: 30px;
+  border-bottom-left-radius:10%;
+  border-bottom-right-radius:10%;
+  border-top-right-radius:10%;
+  border-top-left-radius:10%;
+  width:20%;
+  height:90%;
+  color:red;
+}
