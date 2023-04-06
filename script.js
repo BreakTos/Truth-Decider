@@ -18,6 +18,7 @@ function declareWinner(button1 , button2){
     if(buttonNumber1>buttonNumber2) alert(name1+" is Right");
     if(buttonNumber1<buttonNumber2) alert(name2+" is Right");
     if(buttonNumber1==buttonNumber2) alert("Nobody wins , Start dice fight again");
+    putVal(button1,button2);
 }
 function handleSubmit(event,formid){
   event.preventDefault();
@@ -32,5 +33,7 @@ function putVal(button1 , button2){
   but1.innerHTML = name1;
   var but2=document.getElementById("button2");
   but2.innerHTML = name2;
- 
+}
+function hideForm(formId){
+  document.getElementById(formId).classList.add("hidden");
 }
