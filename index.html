@@ -26,7 +26,7 @@
      <form id="myForm1" onsubmit="handleSubmit(event,'myForm1')">
         <label for="name1"> Debater 1 is </label>
         <input type="text" id="name1" name="name1"> 
-        <input type="submit" value="Submit">
+        <input type="submit" value="Submit" onclick="hideForm('myForm1')">
       </form>
     </center>
   </div>
@@ -40,17 +40,17 @@
    </center>
         <center class="duck">
      <form id="myForm2" onsubmit="handleSubmit(event,'myForm2')">
-        <label for="name2"> Debater 1 is </label>
+        <label for="name2"> Debater 2 is </label>
         <input type="text" id="name2" name="name2"> 
-        <input type="submit" value="Submit">
+        <input type="submit" value="Submit" onclick="hideForm('myForm2')">
       </form>
     </center>
   
   </div>
   
   <div class = "down"> 
+   <center> <button onclick="putVal('button1','button2')"> Start the battle </button> </center>
     <center> <h1>Thanks for playing</h1> 
-    <button onclick="putVal('button1','button2')"> Update Names </button>
     <button onclick="declareWinner('button1','button2')"> Show result </button>
       
       </center>
